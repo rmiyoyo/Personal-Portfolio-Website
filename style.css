@@ -309,7 +309,7 @@ header {
 .pointer {
   position: absolute;
   right: 0;
-  padding-right: 200px;
+  padding-right: 25%;
   padding-top: 2%;
 }
 
