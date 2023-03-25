@@ -1,0 +1,364 @@
+body {
+  max-width: 375px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
+header {
+  max-width: 330px;
+  margin: 7.5px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 22.5px;
+}
+
+.logo {
+  height: 20px;
+  width: 76px;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  white-space: nowrap;
+  top: 50px;
+}
+
+#introduction-paragraphs {
+  margin-right: 2%;
+  padding: 25px 0 22.9% 0;
+  flex-direction: column;
+  display: flex;
+}
+
+#main-div {
+  padding: 0%;
+  margin: 0%;
+  background-image: url(./images/background/bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 0%;
+  background-position-y: 90%;
+  border-bottom-left-radius: 75px;
+  padding-top: 2.9%;
+  background-color: #fff;
+}
+
+.connect-message {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #7f8cff;
+  line-height: 24px;
+  margin-top: 2%;
+  padding-left: 6%;
+  font-style: normal;
+}
+
+#link-media {
+  padding-left: 6%;
+  margin-top: 2.9%;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  list-style: none;
+  padding-left: 0%;
+  width: 100%;
+  margin-top: 1%;
+  align-items: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  justify-content: center;
+  padding-right: 4.5%;
+}
+
+.logos {
+  padding-right: 8%;
+}
+
+.first-introduction {
+  margin-top: 21%;
+  margin-bottom: 0.5%;
+  padding-left: 6%;
+  padding-right: 12%;
+  color: #172b4d;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.description {
+  margin-top: 2%;
+  margin-bottom: 1.5%;
+  padding-left: 6%;
+  padding-right: 14%;
+  color: #344563;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#projects {
+  width: 100%;
+  margin: 0%;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  align-items: space-between;
+  padding-top: 20%;
+}
+
+#tonic-project {
+  margin: 0 5.6% 25% 5.6%;
+  height: fit-content;
+  border-radius: 16px;
+  border: 1px solid #dfe1e5;
+  background-color: #fff;
+}
+
+.data {
+  margin-top: 5%;
+  margin-bottom: 8%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-style: normal;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.work-nature {
+  margin-left: -2%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.canopy {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 1%;
+  color: #344563;
+}
+
+.backend {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 1%;
+  color: #7a868a;
+}
+
+.year {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 1%;
+  color: #7a868a;
+}
+
+.work-description {
+  font-style: normal;
+  padding-left: 3px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344560;
+}
+
+.tools {
+  list-style: none;
+  padding-left: 0%;
+  width: 100%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tools li {
+  display: inline-block;
+  justify-content: center;
+  padding: 4px 12px;
+  margin-right: 2.5px;
+  border-radius: 8px;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+}
+
+.see-project {
+  margin-top: 5px;
+  width: 45%;
+  background-color: white;
+  border: 1px solid #6070ff;
+  border-radius: 6px;
+  padding: 16px;
+  gap: 12px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+.see-project:hover {
+  text-decoration: underline;
+}
+
+#skills-page {
+  background-color: #fff;
+  margin-bottom: 25%;
+  height: fit-content;
+  border: 1px solid #dfe1e5;
+  border-top-right-radius: 75px;
+}
+
+.about-description {
+  padding-right: 5%;
+  padding-top: 25%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1%;
+  padding-bottom: 15%;
+}
+
+.main-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0px;
+  color: #172b4d;
+  margin-right: 11%;
+  padding-left: 7%;
+}
+
+.main-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344560;
+  margin-right: 11%;
+  padding-left: 7%;
+}
+
+.resume-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 45%;
+  border-radius: 6px;
+  padding: 14px;
+  background-color: white;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  margin-left: 6%;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
+
+.skills-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills-block-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  margin-left: -1%;
+  letter-spacing: 0.03em;
+}
+
+.pointer {
+  position: absolute;
+  right: 0;
+  padding-right: 25%;
+  padding-top: 2%;
+}
+
+#skills-list {
+  list-style: none;
+}
+
+#skills-list li {
+  margin-bottom: 10%;
+  height: fit-content;
+}
+
+.skills-dropdown {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+}
+
+.skills-dropdown-1 {
+  background-color: #f7f7f8;
+  padding: 15px;
+  padding-right: 250px;
+  margin: 2.9% 9% 1% -2.9%;
+  border-radius: 12px;
+}
+
+.skill-icon {
+  float: left;
+}
+
+.skill-name {
+  position: absolute;
+  margin-left: 1.5%;
+  margin-top: 1%;
+  color: #253858;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.space {
+  height: 1px;
+  width: 95%;
+  margin-top: 7%;
+  margin-left: -4%;
+  background-color: #dfe1e5;
+}
+
+#background {
+  position: relative;
+}
