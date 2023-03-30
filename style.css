@@ -362,3 +362,122 @@ header {
 #background {
   position: relative;
 }
+
+.footer-section {
+  background-color: #6070ff;
+  height: fit-content;
+  width: 100%;
+  border-top-left-radius: 75px;
+}
+
+.contact-section {
+  background: url(./images/background/background-footer.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  width: 100%;
+  height: fit-content;
+  padding-top: 14%;
+  margin-left: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-header {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 0%;
+  line-height: 52px;
+}
+
+.contact-description {
+  font-size: 20px;
+  font-style: normal;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 2%;
+  text-align: center;
+  color: #ebebff;
+  font-weight: 400;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin: 10%;
+}
+
+.name-box {
+  width: 100%;
+  padding: 4%;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  margin-left: -4%;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 7%;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+  line-height: 20px;
+}
+
+.email-box {
+  width: 100%;
+  padding: 4%;
+  border-radius: 8px;
+  margin-left: -4%;
+  border: 1px solid #cfd8dc;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 7%;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+  line-height: 20px;
+}
+
+.message-box {
+  width: 100%;
+  padding: 4%;
+  border-radius: 8px;
+  margin-left: -4%;
+  border: 1px solid #cfd8dc;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 9%;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+  line-height: 30px;
+  resize: none;
+  height: 150px;
+}
+
+.contact-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  margin-left: -4%;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border: 1px;
+  padding: 4%;
+  border-radius: 8px;
+  width: 50%;
+  background: #fff;
+}
+
+.contact-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
