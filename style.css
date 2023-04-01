@@ -79,7 +79,7 @@ body {
 
 #link-media {
   padding-left: 6%;
-  margin-top: 50px;
+  margin-top: 3px;
   display: flex;
   align-items: center;
 }
@@ -541,6 +541,7 @@ body {
   }
 
   .desktop-image-div {
+    padding: 0.5px;
     display: flex;
     margin-right: 2.5%;
     width: 50%;
