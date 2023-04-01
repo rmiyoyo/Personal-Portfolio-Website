@@ -26,6 +26,7 @@ body {
   white-space: nowrap;
 }
 
+
 #projects-desktop {
   display: none;
 }
@@ -46,7 +47,6 @@ body {
 }
 
 #main-div {
-  max-width: 1024px;
   padding: 0%;
   margin: 0 auto;
   background-image: url(./images/background/bg.png);
@@ -497,7 +497,7 @@ body {
 
 @media screen and (min-width: 768px) {
   body {
-    min-width: 768px;
+    width: 100%;
     margin: 0;
   }
 
@@ -510,6 +510,20 @@ body {
     display: none;
   }
 
+  .logo {
+    color: #6070ff;
+    transition: all 1s;
+  }
+  
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+
+  .see-project:hover {
+    background: #396df2;
+    color: #fff;
+    transition: 0.8s;
+  }
   .data {
     display: flex;
     flex-direction: row;
@@ -564,6 +578,8 @@ body {
     background: url(./images/desktop/header\ background\ shape-desktop.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 100%;
+    background-size: cover;
     padding-top: 15%;
     position: relative;
     height: auto;
