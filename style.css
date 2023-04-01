@@ -10,9 +10,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 22.5px;
+  padding: 1px 22.5px;
   width: auto;
   position: relative;
+  height: 0.05px;
 }
 
 .logo {
@@ -45,9 +46,14 @@ body {
   display: none;
 }
 
+.desktop-image-div-2 {
+  display: none;
+}
+
 #main-div {
   padding: 0%;
   margin: 0 auto;
+  margin-top: -4%;
   background-image: url(./images/background/bg.png);
   background-repeat: no-repeat;
   background-position-x: 0%;
@@ -55,6 +61,10 @@ body {
   border-bottom-left-radius: 75px;
   padding-top: 50px;
   background-color: #fff;
+}
+
+.desktop-image-div-4 {
+  display: none;
 }
 
 .connect-message {
@@ -69,7 +79,7 @@ body {
 
 #link-media {
   padding-left: 6%;
-  margin-top: 50px;
+  margin-top: 3px;
   display: flex;
   align-items: center;
 }
@@ -122,11 +132,11 @@ body {
   display: grid;
   grid-template-rows: repeat(3, auto);
   align-items: space-between;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 #tonic-project {
-  margin: 0 5.6% 25% 5.6%;
+  margin: 0 5.6% 10% 5.6%;
   height: fit-content;
   border-radius: 16px;
   border: 1px solid #dfe1e5;
@@ -154,8 +164,8 @@ body {
 }
 
 .work-nature {
-  margin-left: -2%;
-  width: 80%;
+  margin-left: -1%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -163,8 +173,8 @@ body {
 
 .canopy {
   font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 16px;
   margin-top: 1%;
   color: #344563;
@@ -172,8 +182,8 @@ body {
 
 .backend {
   font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 16px;
   margin-top: 1%;
   color: #7a868a;
@@ -181,8 +191,8 @@ body {
 
 .year {
   font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 16px;
   margin-top: 1%;
   color: #7a868a;
@@ -190,7 +200,7 @@ body {
 
 .work-description {
   font-style: normal;
-  padding-left: 3px;
+  padding-left: 1px;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -213,7 +223,7 @@ body {
   padding: 4px 12px;
   margin-right: 2.5px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #ebebff;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -224,7 +234,7 @@ body {
 
 .see-project {
   margin-top: 5px;
-  width: 45%;
+  width: 44%;
   background-color: white;
   border: 1px solid #6070ff;
   border-radius: 6px;
@@ -245,10 +255,10 @@ body {
 
 #skills-page {
   background-color: #fff;
-  margin-bottom: 25%;
   height: fit-content;
   border: 1px solid #dfe1e5;
   border-top-right-radius: 75px;
+  margin-bottom: 0%;
 }
 
 .about-description {
@@ -318,6 +328,14 @@ body {
   letter-spacing: 0.03em;
 }
 
+.space {
+  height: 1px;
+  width: 95%;
+  margin-top: 7%;
+  margin-left: -4%;
+  background-color: #dfe1e5;
+}
+
 .pointer {
   position: absolute;
   right: 0;
@@ -327,6 +345,7 @@ body {
 
 #skills-list {
   list-style: none;
+  padding: 8%;
 }
 
 #skills-list li {
@@ -363,14 +382,6 @@ body {
   line-height: 20px;
 }
 
-.space {
-  height: 1px;
-  width: 95%;
-  margin-top: 7%;
-  margin-left: -4%;
-  background-color: #dfe1e5;
-}
-
 #background {
   position: relative;
 }
@@ -380,15 +391,17 @@ body {
   height: fit-content;
   width: 100%;
   border-top-left-radius: 75px;
+  margin-top: 0%;
 }
 
 .contact-section {
   background: url(./images/background/background-footer.png);
   background-repeat: no-repeat;
   background-position-x: right;
-  width: 100%;
+  width: 375px;
   height: fit-content;
-  padding-top: 14%;
+  padding-top: 4%;
+  padding-left: 0%;
   margin-left: 0%;
   display: flex;
   flex-direction: column;
@@ -411,10 +424,12 @@ body {
   font-style: normal;
   line-height: 28px;
   font-family: "Poppins", sans-serif;
-  margin-top: 2%;
+  margin-top: 0%;
   text-align: center;
   color: #ebebff;
   font-weight: 400;
+  width: 327px;
+  padding-left: 24px;
 }
 
 #contact-form {
@@ -531,6 +546,7 @@ body {
   }
 
   .desktop-image-div {
+    padding: 0.5px;
     display: flex;
     margin-right: 2.5%;
     width: 50%;
@@ -547,18 +563,7 @@ body {
     margin-top: 0;
   }
 
-  .desktop-image-div-2 {
-    float: right;
-    display: flex;
-    margin-right: 2.5%;
-    width: 50%;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-bottom: 0;
-  }
-
   .project-content-2 {
-    float: none;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -566,9 +571,72 @@ body {
     margin-top: 0;
   }
 
+  .desktop-image-div-2 {
+    display: flex;
+    margin-right: 2.5%;
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 0;
+    order: 2;
+  }
+
+  .project-content-4 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+
+  #skills-list {
+    list-style: none;
+    padding: 8%;
+  }
+
+  #skills-list li {
+    margin-bottom: 15%;
+    height: fit-content;
+  }
+
+  .skills-dropdown {
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+  }
+
+  .skills-dropdown-1 {
+    background-color: #f7f7f8;
+    margin: 2.9% 9% 10% -2.9%;
+    border-radius: 12px;
+    padding: 14%;
+    padding-right: 30px;
+  }
+
+  .skill-name {
+    position: absolute;
+    margin-left: -12%;
+    margin-top: 13%;
+    color: #253858;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .desktop-image-div-4 {
+    display: flex;
+    margin-right: 2.5%;
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 0;
+    order: 2;
+  }
+
   #main-div {
     margin: 0%;
-    margin-top: 0%;
+    margin-top: -4%;
     padding: 5%;
     background: none;
     background-color: #fff;
@@ -611,11 +679,11 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #fff;
-    padding-bottom: 25%;
     padding-right: 0%;
     height: fit-content;
     border: 1px solid #dfe1e5;
     border-top-right-radius: 75px;
+    margin-bottom: 0%;
   }
 
   #mobile-nav {
@@ -635,24 +703,28 @@ body {
     padding-top: 15%;
   }
 
-  .skills-dropdown {
-    display: flex;
-    height: fit-content;
-    flex-direction: row;
+  .skills-block-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    margin-left: -1%;
+    letter-spacing: 0.03em;
   }
 
-  .skill-name {
-    margin-top: 13%;
-    margin-left: -12%;
-  }
-
-  .skills-dropdown-1 {
-    padding: 14%;
+  .space {
+    height: 1px;
+    width: 210%;
+    margin-top: 7%;
+    margin-left: -4%;
+    background-color: #dfe1e5;
   }
 
   .skill-icon {
     margin-top: -12%;
     margin-left: -12%;
+    float: left;
   }
 
   .contact-section {
@@ -685,13 +757,14 @@ body {
     width: 40%;
     margin: 0%;
     margin-left: 30%;
+    margin-bottom: 3%;
   }
 
   .contact-button {
     background-color: #fff;
     border-radius: 8px;
     padding: 4%;
-    width: 50%;
+    width: 30%;
     color: #6070ff;
     border: 1px;
     margin-left: 25%;
