@@ -26,7 +26,6 @@ body {
   white-space: nowrap;
 }
 
-
 #projects-desktop {
   display: none;
 }
@@ -514,7 +513,7 @@ body {
     color: #6070ff;
     transition: all 1s;
   }
-  
+
   .logo:hover {
     transform: rotate(360deg);
   }
@@ -524,6 +523,7 @@ body {
     color: #fff;
     transition: 0.8s;
   }
+
   .data {
     display: flex;
     flex-direction: row;
@@ -577,7 +577,6 @@ body {
   #introduction-paragraphs {
     background: url(./images/desktop/header\ background\ shape-desktop.png);
     background-repeat: no-repeat;
-    background-size: 100%;
     width: 100%;
     background-size: cover;
     padding-top: 15%;
