@@ -7,19 +7,22 @@
     <title>Portfolio: Mobile Version Completion</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="main-div">
-        <header>
+        <header class="header-section">
             <a href="#" class="logo">My Logo</a>
-            <nav>
+            <nav id="mobile-nav">
               <svg viewBox="0 0 100 80" width="40" height="40" class="svg-menu">
                 <rect y="38" width="100" height="8" rx="8" fill="#6070FF"></rect>
                 <rect y="58" width="100" height="8" rx="8" fill="#6070FF"></rect>
                 <rect y="78" width="100" height="8" rx="8" fill="#6070FF"></rect>
               </svg>
+            </nav>
+            <nav id="nav-menu">
+                    <a href="#" class="desktop-link">Portfolio</a>
+                    <a href="#" class="desktop-link">About</a>
+                    <a href="#" class="desktop-link">Contact</a>
             </nav>
         </header>
         <section id="introduction-paragraphs">
@@ -53,22 +56,25 @@
         <!-- Start of Project 1 -->
         <div id="tonic-project">
             <div class="data">
-                <img src="./images/snapshots/Snapshoot Portfolio.png" alt="Tonic project snapshot">
-                <h2 class="project-title">Tonic</h2>
-                <div class="work-nature">
-                    <label class="canopy">CANOPY</label>
-                    <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
-                    <label class="backend"> Back End Dev</label>
-                    <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
-                    <label class="year">2015</label>
+                <div class="image-div"><img src="./images/snapshots/Snapshoot Portfolio.png" alt="Tonic project snapshot"></div>
+                <div class="desktop-image-div"><img class="desktop-snapshop" src="./images/desktop/Snapshoot-Desktop1.png" alt="Tonic project snapshot"></div>
+                <div class="project-content-1">
+                    <h2 class="project-title">Tonic</h2>
+                    <div class="work-nature">
+                        <label class="canopy">CANOPY</label>
+                        <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
+                        <label class="backend"> Back End Dev</label>
+                        <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
+                        <label class="year">2015</label>
+                    </div>
+                    <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <ul class="tools">
+                        <li><label class="tool-press">HTML</label></li>
+                        <li><label class="tool-press">CSS</label></li>
+                        <li><label class="tool-press">JAVASCRIPT</label></li>
+                    </ul>
+                    <button class="see-project">See Project</button>
                 </div>
-                <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="tools">
-                    <li><label class="tool-press">HTML</label></li>
-                    <li><label class="tool-press">CSS</label></li>
-                    <li><label class="tool-press">JAVASCRIPT</label></li>
-                </ul>
-                <button class="see-project">See Project</button>
             </div>
         </div>
         <!-- End of Project 1 -->
@@ -76,22 +82,25 @@
         <!-- Start of Project 2 -->
         <div id="tonic-project">
             <div class="data">
-                <img src="./images/snapshots/Snapshoot Portfolio 2.png" alt="Tonic project snapshot">
-                <h2 class="project-title">Multi-Post <br />Stories</h2>
-                <div class="work-nature">
-                    <label class="canopy">CANOPY</label>
-                    <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
-                    <label class="backend"> Back End Dev</label>
-                    <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
-                    <label class="year">2015</label>
+                <div class="image-div"><img src="./images/snapshots/Snapshoot Portfolio 2.png" alt="Tonic project snapshot"></div>
+                <div class="desktop-image-div-2"><img class="desktop-snapshop" src="./images/desktop/Snapshoot-Desktop2.png" alt="Tonic project snapshot"></div>
+                <div class="project-content-2">
+                    <h2 class="project-title">Multi-Post <br />Stories</h2>
+                    <div class="work-nature">
+                        <label class="canopy">CANOPY</label>
+                        <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
+                        <label class="backend"> Back End Dev</label>
+                        <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
+                        <label class="year">2015</label>
+                    </div>
+                    <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <ul class="tools">
+                        <li><label class="tool-press">HTML</label></li>
+                        <li><label class="tool-press">CSS</label></li>
+                        <li><label class="tool-press">JAVASCRIPT</label></li>
+                    </ul>
+                    <button class="see-project">See Project</button>
                 </div>
-                <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="tools">
-                    <li><label class="tool-press">HTML</label></li>
-                    <li><label class="tool-press">CSS</label></li>
-                    <li><label class="tool-press">JAVASCRIPT</label></li>
-                </ul>
-                <button class="see-project">See Project</button>
             </div>
         </div>
         <!-- End of Project 2 -->
@@ -99,22 +108,25 @@
         <!-- Start of Project 3 -->
         <div id="tonic-project">
             <div class="data">
-                <img src="./images/snapshots/Snapshoot Portfolio 3.png" alt="Tonic project snapshot">
-                <h2 class="project-title">Tonic</h2>
-                <div class="work-nature">
-                    <label class="canopy">CANOPY</label>
-                    <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
-                    <label class="backend"> Back End Dev</label>
-                    <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
-                    <label class="year">2015</label>
+                <div class="image-div"><img src="./images/snapshots/Snapshoot Portfolio 3.png" alt="Tonic project snapshot"></div>
+                <div class="desktop-image-div"><img class="desktop-snapshop" src="./images/desktop/Snapshoot-Desktop3.png" alt="Tonic project snapshot"></div>
+                <div class="project-content-3">
+                    <h2 class="project-title">Tonic</h2>
+                    <div class="work-nature">
+                        <label class="canopy">CANOPY</label>
+                        <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
+                        <label class="backend"> Back End Dev</label>
+                        <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
+                        <label class="year">2015</label>
+                    </div>
+                    <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <ul class="tools">
+                        <li><label class="tool-press">HTML</label></li>
+                        <li><label class="tool-press">CSS</label></li>
+                        <li><label class="tool-press">JAVASCRIPT</label></li>
+                    </ul>
+                    <button class="see-project">See Project</button>
                 </div>
-                <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="tools">
-                    <li><label class="tool-press">HTML</label></li>
-                    <li><label class="tool-press">CSS</label></li>
-                    <li><label class="tool-press">JAVASCRIPT</label></li>
-                </ul>
-                <button class="see-project">See Project</button>
             </div>
         </div>
         <!-- End of Project 3 -->
@@ -122,26 +134,30 @@
         <!-- Start of Project 4 -->
         <div id="tonic-project">
             <div class="data">
-                <img src="./images/snapshots/Snapshoot Portfolio 4.png" alt="Tonic project snapshot">
-                <h2 class="project-title">Multi-Post <br />Stories</h2>
-                <div class="work-nature">
-                    <label class="canopy">CANOPY</label>
-                    <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
-                    <label class="backend"> Back End Dev</label>
-                    <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
-                    <label class="year">2015</label>
+                <div class="image-div"><img src="./images/snapshots/Snapshoot Portfolio 4.png" alt="Tonic project snapshot"></div>
+                <div class="desktop-image-div"><img class="desktop-snapshop" src="./images/desktop/Snapshoot-Desktop4.png" alt="Tonic project snapshot"></div>
+                <div class="project-content-4">
+                    <h2 class="project-title">Multi-Post <br />Stories</h2>
+                    <div class="work-nature">
+                        <label class="canopy">CANOPY</label>
+                        <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
+                        <label class="backend"> Back End Dev</label>
+                        <div class="bullet-point"><img src="./images/icons/Counter.png" alt=""></div>
+                        <label class="year">2015</label>
+                    </div>
+                    <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <ul class="tools">
+                        <li><label class="tool-press">HTML</label></li>
+                        <li><label class="tool-press">CSS</label></li>
+                        <li><label class="tool-press">JAVASCRIPT</label></li>
+                    </ul>
+                    <button class="see-project">See Project</button>
                 </div>
-                <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="tools">
-                    <li><label class="tool-press">HTML</label></li>
-                    <li><label class="tool-press">CSS</label></li>
-                    <li><label class="tool-press">JAVASCRIPT</label></li>
-                </ul>
-                <button class="see-project">See Project</button>
             </div>
         </div>
         <!-- End of Project 4 -->
     </div>
+
     <section id="skills-page">
         <div class="about-description">
             <h2 class="main-text">About Myself</h2>

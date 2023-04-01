@@ -1,63 +1,75 @@
 body {
-  max-width: 375px;
+  min-width: 375px;
   font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
   margin: 0;
 }
 
-header {
-  max-width: 330px;
-  margin: 7.5px auto;
+.header-section {
+  margin: 2% 6%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 22.5px;
+  width: auto;
+  position: relative;
 }
 
 .logo {
-  height: 20px;
-  width: 76px;
+  height: 40px;
+  width: 120px;
   text-decoration: none;
-  line-height: 20px;
-  font-size: 20px;
+  line-height: 40px;
+  font-size: 24px;
   font-weight: 700;
   font-style: normal;
   white-space: nowrap;
-  top: 50px;
+}
+
+#projects-desktop {
+  display: none;
 }
 
 #introduction-paragraphs {
-  margin-right: 2%;
-  padding: 25px 0 22.9% 0;
-  flex-direction: column;
-  display: flex;
+  padding: 0%;
+  margin: 0%;
+  border-bottom-left-radius: 75px;
+  padding-top: 3%;
+}
+
+#nav-menu {
+  display: none;
+}
+
+.desktop-image-div {
+  display: none;
 }
 
 #main-div {
   padding: 0%;
-  margin: 0%;
+  margin: 0 auto;
   background-image: url(./images/background/bg.png);
   background-repeat: no-repeat;
   background-position-x: 0%;
   background-position-y: 90%;
   border-bottom-left-radius: 75px;
-  padding-top: 2.9%;
+  padding-top: 50px;
   background-color: #fff;
 }
 
 .connect-message {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 500px;
   color: #7f8cff;
-  line-height: 24px;
-  margin-top: 2%;
+  line-height: 36px;
+  margin-top: 50px;
   padding-left: 6%;
   font-style: normal;
 }
 
 #link-media {
   padding-left: 6%;
-  margin-top: 2.9%;
+  margin-top: 50px;
   display: flex;
   align-items: center;
 }
@@ -66,7 +78,7 @@ header {
   list-style: none;
   padding-left: 0%;
   width: 100%;
-  margin-top: 1%;
+  margin-top: 20px;
   align-items: center;
 }
 
@@ -81,15 +93,15 @@ header {
 }
 
 .first-introduction {
-  margin-top: 21%;
-  margin-bottom: 0.5%;
+  margin-top: 150px;
+  margin-bottom: 20px;
   padding-left: 6%;
   padding-right: 12%;
   color: #172b4d;
-  font-size: 40px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 62px;
 }
 
 .description {
@@ -480,4 +492,208 @@ header {
 .contact-button:hover {
   background-color: #6070ff;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header-section {
+    margin: 0;
+    padding: 2%;
+  }
+
+  .image-div {
+    display: none;
+  }
+
+  .logo {
+    color: #6070ff;
+    transition: all 1s;
+  }
+
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+
+  .see-project:hover {
+    background: #396df2;
+    color: #fff;
+    transition: 0.8s;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .desktop-image-div {
+    display: flex;
+    margin-right: 2.5%;
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .project-content-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+
+  .desktop-image-div-2 {
+    float: right;
+    display: flex;
+    margin-right: 2.5%;
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .project-content-2 {
+    float: none;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+
+  #main-div {
+    margin: 0%;
+    margin-top: 0%;
+    padding: 5%;
+    background: none;
+    background-color: #fff;
+  }
+
+  #introduction-paragraphs {
+    background: url(./images/desktop/header\ background\ shape-desktop.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-top: 15%;
+    position: relative;
+    height: auto;
+    padding-bottom: 15%;
+    margin: 0%;
+  }
+
+  #nav-menu {
+    justify-content: space-evenly;
+    display: flex;
+  }
+
+  .desktop-link {
+    margin-right: 15%;
+    color: #344563;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .desktop-link:hover {
+    color: #6070ff;
+    text-decoration: underline;
+  }
+
+  #skills-page {
+    margin-right: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding-bottom: 25%;
+    padding-right: 0%;
+    height: fit-content;
+    border: 1px solid #dfe1e5;
+    border-top-right-radius: 75px;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+
+  .about-description {
+    width: 50%;
+    padding-top: 15%;
+    padding-right: 0%;
+  }
+
+  .skills-block {
+    float: right;
+    width: 50%;
+    position: relative;
+    padding-top: 15%;
+  }
+
+  .skills-dropdown {
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+  }
+
+  .skill-name {
+    margin-top: 13%;
+    margin-left: -12%;
+  }
+
+  .skills-dropdown-1 {
+    padding: 14%;
+  }
+
+  .skill-icon {
+    margin-top: -12%;
+    margin-left: -12%;
+  }
+
+  .contact-section {
+    background: url("./images/desktop/footer.png");
+    margin: 0%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+    height: fit-content;
+    margin-left: 0%;
+    padding: 0%;
+    justify-content: center;
+    width: 100%;
+    background-position: 0% 50%;
+  }
+
+  .contact-header {
+    margin-top: 10%;
+    width: 33%;
+    margin-left: 33%;
+  }
+
+  .contact-description {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  #contact-form {
+    width: 40%;
+    margin: 0%;
+    margin-left: 30%;
+  }
+
+  .contact-button {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 4%;
+    width: 50%;
+    color: #6070ff;
+    border: 1px;
+    margin-left: 25%;
+  }
 }
