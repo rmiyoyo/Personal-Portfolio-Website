@@ -255,10 +255,10 @@ body {
 
 #skills-page {
   background-color: #fff;
-  margin-bottom: 25%;
   height: fit-content;
   border: 1px solid #dfe1e5;
   border-top-right-radius: 75px;
+  margin-bottom: 0%;
 }
 
 .about-description {
@@ -328,6 +328,14 @@ body {
   letter-spacing: 0.03em;
 }
 
+.space {
+  height: 1px;
+  width: 95%;
+  margin-top: 7%;
+  margin-left: -4%;
+  background-color: #dfe1e5;
+}
+
 .pointer {
   position: absolute;
   right: 0;
@@ -337,6 +345,7 @@ body {
 
 #skills-list {
   list-style: none;
+  padding: 8%;
 }
 
 #skills-list li {
@@ -373,14 +382,6 @@ body {
   line-height: 20px;
 }
 
-.space {
-  height: 1px;
-  width: 95%;
-  margin-top: 7%;
-  margin-left: -4%;
-  background-color: #dfe1e5;
-}
-
 #background {
   position: relative;
 }
@@ -390,15 +391,17 @@ body {
   height: fit-content;
   width: 100%;
   border-top-left-radius: 75px;
+  margin-top: 0%;
 }
 
 .contact-section {
   background: url(./images/background/background-footer.png);
   background-repeat: no-repeat;
   background-position-x: right;
-  width: 100%;
+  width: 375px;
   height: fit-content;
   padding-top: 4%;
+  padding-left: 0%;
   margin-left: 0%;
   display: flex;
   flex-direction: column;
@@ -425,6 +428,8 @@ body {
   text-align: center;
   color: #ebebff;
   font-weight: 400;
+  width: 327px;
+  padding-left: 24px;
 }
 
 #contact-form {
@@ -584,6 +589,41 @@ body {
     margin-top: 0;
   }
 
+  #skills-list {
+    list-style: none;
+    padding: 8%;
+  }
+
+  #skills-list li {
+    margin-bottom: 15%;
+    height: fit-content;
+  }
+
+  .skills-dropdown {
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+  }
+
+  .skills-dropdown-1 {
+    background-color: #f7f7f8;
+    margin: 2.9% 9% 10% -2.9%;
+    border-radius: 12px;
+    padding: 14%;
+    padding-right: 30px;
+  }
+
+  .skill-name {
+    position: absolute;
+    margin-left: -12%;
+    margin-top: 13%;
+    color: #253858;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
   .desktop-image-div-4 {
     display: flex;
     margin-right: 2.5%;
@@ -663,24 +703,28 @@ body {
     padding-top: 15%;
   }
 
-  .skills-dropdown {
-    display: flex;
-    height: fit-content;
-    flex-direction: row;
+  .skills-block-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    margin-left: -1%;
+    letter-spacing: 0.03em;
   }
 
-  .skill-name {
-    margin-top: 13%;
-    margin-left: -12%;
-  }
-
-  .skills-dropdown-1 {
-    padding: 14%;
+  .space {
+    height: 1px;
+    width: 210%;
+    margin-top: 7%;
+    margin-left: -4%;
+    background-color: #dfe1e5;
   }
 
   .skill-icon {
     margin-top: -12%;
     margin-left: -12%;
+    float: left;
   }
 
   .contact-section {
@@ -713,13 +757,14 @@ body {
     width: 40%;
     margin: 0%;
     margin-left: 30%;
+    margin-bottom: 3%;
   }
 
   .contact-button {
     background-color: #fff;
     border-radius: 8px;
     padding: 4%;
-    width: 50%;
+    width: 30%;
     color: #6070ff;
     border: 1px;
     margin-left: 25%;
