@@ -42,6 +42,10 @@ body {
   display: none;
 }
 
+#nav-menu.show {
+  display: block;
+}
+
 .desktop-image-div {
   display: none;
 }
