@@ -17,11 +17,41 @@
   max-width: 767px;
   min-width: 375px;
   width: 100%;
-  height: 600px;
+  height: 100vh;
   background-color: #6070ff;
   opacity: 0.9;
   z-index: 9;
   transition: opacity 0.5s, visibility 0.5s;
+}
+
+.mobile-menu-active .mobile-menu-overlay {
+  display: block;
+}
+
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 8;
+  display: none;
+}
+
+body.menu-active {
+  overflow: hidden;
+}
+
+body.menu-active::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px);
+  z-index: 7;
 }
 
 .mobile-menu-list {
