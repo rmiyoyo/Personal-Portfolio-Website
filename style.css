@@ -1,3 +1,81 @@
+#nav-menu {
+  display: none;
+}
+
+.mobile-menu-inactive {
+  visibility: hidden;
+  position: fixed;
+}
+
+.mobile-menu {
+  visibility: visible;
+  padding: 5%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  max-width: 767px;
+  min-width: 375px;
+  width: 100%;
+  height: 100vh;
+  background-color: #6070ff;
+  opacity: 0.9;
+  z-index: 9;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 8;
+  display: none;
+}
+
+.mobile-menu-active .mobile-menu-overlay {
+  display: block;
+}
+
+body.menu-active {
+  overflow: hidden;
+}
+
+body.menu-active::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px);
+  z-index: 7;
+}
+
+.mobile-menu-list {
+  list-style: none;
+  padding-top: 10%;
+  display: inline-block;
+}
+
+.disabled-button {
+  position: fixed;
+  right: 0;
+  padding-top: 3%;
+  padding-right: 15%;
+}
+
+.mobile-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 60px;
+  color: #fff;
+}
+
 body {
   min-width: 375px;
   font-family: 'Poppins', sans-serif;
@@ -17,7 +95,7 @@ body {
 }
 
 .logo {
-  height: 40px;
+  height: 30px;
   width: 120px;
   text-decoration: none;
   line-height: 40px;
@@ -36,10 +114,6 @@ body {
   margin: 0%;
   border-bottom-left-radius: 75px;
   padding-top: 3%;
-}
-
-#nav-menu {
-  display: none;
 }
 
 .desktop-image-div {
@@ -516,6 +590,11 @@ body {
   }
 
   .header-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
     margin: 0;
     padding: 2%;
   }
@@ -527,6 +606,7 @@ body {
   .logo {
     color: #6070ff;
     transition: all 1s;
+    padding-left: 6%;
   }
 
   .logo:hover {

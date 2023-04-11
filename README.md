@@ -30,6 +30,10 @@
 **Portfolio Mobile Version Completion** is a continuation of **Portfolio Setup and Mobile First** HTML/CSS project that uses Figma for UI design, Flexbox to place elements in HTML pages and backgrounds to enhance the look of a portfolio website. This time round, I added the Projects page and Skills page.
 
 ## 🛠 Built With <a name="built-with"></a>
+1- HTML.
+2- CSS.
+3- JavaScript
+4- LINTERS.
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -38,6 +42,7 @@
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
     <li><a href="https://www.figma.com/">Figma</a></li>
   </ul>
 </details>
