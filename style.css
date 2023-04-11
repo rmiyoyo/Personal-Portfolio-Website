@@ -24,10 +24,6 @@
   transition: opacity 0.5s, visibility 0.5s;
 }
 
-.mobile-menu-active .mobile-menu-overlay {
-  display: block;
-}
-
 .mobile-menu-overlay {
   position: fixed;
   top: 0;
@@ -37,6 +33,10 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 8;
   display: none;
+}
+
+.mobile-menu-active .mobile-menu-overlay {
+  display: block;
 }
 
 body.menu-active {
