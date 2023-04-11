@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.getElementById('nav-menu');
   
     hamburgerIcon.addEventListener('click', function() {
-      mobileMenu.classList.toggle('show');
+      mobileMenu.classList.toggle('mobileMenu');
     });
   });
   

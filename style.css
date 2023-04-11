@@ -42,8 +42,13 @@ body {
   display: none;
 }
 
-#nav-menu.show {
+/* #nav-menu.show {
   display: block;
+} */
+
+#nav-menu.mobileMenu {
+  display:flex;
+  flex-direction: column;
 }
 
 .desktop-image-div {
