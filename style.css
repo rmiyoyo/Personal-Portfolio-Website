@@ -2,6 +2,10 @@
   display: none;
 }
 
+.error-message {
+  color: red;
+}
+
 .mobile-menu-inactive {
   visibility: hidden;
   position: fixed;
@@ -581,6 +585,7 @@ body {
 .contact-button:hover {
   background-color: #6070ff;
   color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
 }
 
 @media screen and (min-width: 768px) {
@@ -848,5 +853,12 @@ body {
     color: #6070ff;
     border: 1px;
     margin-left: 25%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact-button:hover {
+    background-color: #6070ff;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
   }
 }
