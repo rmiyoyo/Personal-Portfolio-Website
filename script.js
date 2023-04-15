@@ -7,15 +7,31 @@ const handleClick = () => {
   mobileMenuOverlay.classList.toggle('mobile-menu-overlay-active');
 };
 
+function saveFormDataToLocalStorage() {
+  const nameInput = document.querySelector('input[name="name"]');
+  const emailInput = document.querySelector('.email-box');
+  const messageInput = document.querySelector('textarea[name="message"]');
+
+  const formData = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#svg-menu').addEventListener('click', handleClick);
   document.querySelectorAll('.mobile-link, .disabled-button').forEach((button) => button.addEventListener('click', handleClick));
 
   const form = document.querySelector('#contact-form');
   const submitButton = document.querySelector('.contact-button');
+  const nameInput = form.querySelector('input[name="name"]');
+  const emailInput = form.querySelector('.email-box');
+  const messageInput = form.querySelector('textarea[name="message"]');
 
   form.addEventListener('submit', (event) => {
-    const emailInput = document.querySelector('.email-box');
     const email = emailInput.value.trim();
 
     if (email !== email.toLowerCase()) {
@@ -28,6 +44,21 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       submitButton.insertAdjacentElement('afterend', errorMessage);
       event.preventDefault();
+    } else {
+      saveFormDataToLocalStorage();
     }
   });
+
+  const savedFormData = localStorage.getItem('formData');
+
+  if (savedFormData) {
+    const formData = JSON.parse(savedFormData);
+    nameInput.value = formData.name;
+    emailInput.value = formData.email;
+    messageInput.value = formData.message;
+  }
+
+  nameInput.addEventListener('change', saveFormDataToLocalStorage);
+  emailInput.addEventListener('change', saveFormDataToLocalStorage);
+  messageInput.addEventListener('change', saveFormDataToLocalStorage);
 });
