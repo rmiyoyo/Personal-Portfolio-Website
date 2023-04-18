@@ -8,18 +8,17 @@ const handleClick = () => {
 };
 
 function saveFormDataToLocalStorage() {
-  const nameInput = document.querySelector('input[name="name"]');
-  const emailInput = document.querySelector('.email-box');
-  const messageInput = document.querySelector('textarea[name="message"]');
+  const form = document.querySelector('form');
+  const formData = new FormData(form);
+  const data = {};
 
-  const formData = {
-    name: nameInput.value,
-    email: emailInput.value,
-    message: messageInput.value,
-  };
+  for (let [key, value] of formData.entries()) {
+    data[key] = value;
+  }
 
-  localStorage.setItem('formData', JSON.stringify(formData));
+  localStorage.setItem('formData', JSON.stringify(data));
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#svg-menu').addEventListener('click', handleClick);
