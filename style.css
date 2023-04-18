@@ -4,6 +4,8 @@
 
 .error-message {
   color: red;
+  font-family: 'Poppins', sans-serif;
+  font-size: 240x; 
 }
 
 .mobile-menu-inactive {
