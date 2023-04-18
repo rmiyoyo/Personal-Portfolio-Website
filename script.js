@@ -1,12 +1,3 @@
-const handleClick = () => {
-  const mobileNavMenu = document.querySelector('#mobile-nav-menu');
-  const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
-  mobileNavMenu.classList.toggle('mobile-menu-inactive');
-  mobileNavMenu.classList.toggle('mobile-menu');
-  document.body.classList.toggle('menu-active');
-  mobileMenuOverlay.classList.toggle('mobile-menu-overlay-active');
-};
-
 function saveFormDataToLocalStorage() {
   const nameInput = document.querySelector('input[name="name"]');
   const emailInput = document.querySelector('.email-box');
@@ -20,6 +11,15 @@ function saveFormDataToLocalStorage() {
 
   localStorage.setItem('formData', JSON.stringify(formData));
 }
+
+const handleClick = () => {
+  const mobileNavMenu = document.querySelector('#mobile-nav-menu');
+  const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+  mobileNavMenu.classList.toggle('mobile-menu-inactive');
+  mobileNavMenu.classList.toggle('mobile-menu');
+  document.body.classList.toggle('menu-active');
+  mobileMenuOverlay.classList.toggle('mobile-menu-overlay-active');
+};
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#svg-menu').addEventListener('click', handleClick);
