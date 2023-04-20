@@ -125,6 +125,12 @@
   justify-content: center;
   align-items: center;
   margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.model-button:hover {
+  background-color: #e6e6e6;
+  text-decoration: underline;
 }
 
 .model-combine {
@@ -888,6 +894,12 @@ body {
     font-size: 12px;
     border-radius: 8px;
     width: 45%;
+    transition: background-color 0.3s ease;
+  }
+
+  .model-button:hover {
+    background-color: #e6e6e6;
+    text-decoration: underline;
   }
 
   .model-body {
