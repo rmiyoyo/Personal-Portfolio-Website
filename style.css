@@ -114,7 +114,8 @@
 .model-button {
   padding: 6px;
   height: 40px;
-  border-radius: 10px;
+  width: 45%;
+  border-radius: 8px;
   border: 1px solid #396df2;
   color: #396df2;
   background-color: #fff;
@@ -128,12 +129,12 @@
 
 .model-combine {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
 .model-content > p {
-  font-size: 10px;
+  font-size: 15px;
+  display: inline-block;
 }
 
 .svg {
@@ -885,6 +886,8 @@ body {
 
   .model-button {
     font-size: 12px;
+    border-radius: 8px;
+    width: 45%;
   }
 
   .model-body {
@@ -928,8 +931,13 @@ body {
   }
 
   .model-content > p {
-    font-size: 12px;
+    font-size: 15px;
     color: #344563;
+  }
+
+  .model-combine {
+    display: flex;
+    align-items: center;
   }
 
   .line-break {
