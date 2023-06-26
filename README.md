@@ -186,7 +186,7 @@ If you like this project, create a pull request or hit me up on [Twitter](https:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my code reviewers at Microverse for helping me with pull requests and merges.
+Thank you for checking out the code and all the code reviews.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
