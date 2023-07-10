@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- You can find the website [here](https://rmiyoyo.github.io/Portfolio-Mobile-Version-Completion/)
+- You can find the website [here](https://rmiyoyo.github.io/Personal-Portfolio-Website/)
 - You can find the video presentation of this website [here](https://www.loom.com/share/ff19ccb0f3c1470482cec4fe1c334c27)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
