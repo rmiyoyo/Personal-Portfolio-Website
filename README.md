@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Mobile Version Completion <a name="about-project"></a>
+# 📖 Portfolio Website: Mobile and Desktop Versions <a name="about-project"></a>
 
-**Portfolio Mobile Version Completion** is a continuation of **Portfolio Setup and Mobile First** HTML/CSS project that uses Figma for UI design, Flexbox to place elements in HTML pages and backgrounds to enhance the look of a portfolio website. This time round, I added the Projects page and Skills page.
+**Portfolio Website: Mobile and Desktop Versions** is a continuation of **Portfolio Setup and Mobile First** HTML/CSS project that uses Figma for UI design, Flexbox to place elements in HTML pages and backgrounds to enhance the look of a portfolio website. This time round, I added the Projects page and Skills page.
 
 ## 🛠 Built With <a name="built-with"></a>
 1- HTML.
@@ -86,7 +86,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:rmiyoyo/Portfolio-Setup-and-Mobile-First.git
+  git clone git@github.com:rmiyoyo/Personal-Portfolio-Website.git
 ```
 
 ### Install
@@ -94,7 +94,7 @@ Clone this repository to your desired folder:
 Install the prerequisites this project using:
 
 ```sh
-  cd Portfolio-Setup-and-Mobile-First
+  cd Personal-Portfolio-Website
   npm init -y
   npm install --save-dev hint@7.x
   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
